@@ -1,0 +1,45 @@
+#nav{
+    /* width: 100%; */
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5,2fr);
+    font-size: larger;
+    padding: 10px 50px;
+    background-color: black;
+    
+}
+#nav>div{
+    margin: -10%;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+#coffee{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap: 10px;
+}
+
+#coffee>div{
+    /* border: 10px solid red; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 90%;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+img{
+    /* padding: 20px 0px; */
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
